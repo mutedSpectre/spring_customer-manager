@@ -12,9 +12,8 @@ public class WebMvcConfig {
     @Bean(name = "viewResolver")
     public InternalResourceViewResolver getViewResolver() {
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-        viewResolver.setPrefix("/WEB-INF/views");
+        viewResolver.setPrefix("/WEB-INF/views/");
         viewResolver.setSuffix(".jsp");
-
         return viewResolver;
     }
 
