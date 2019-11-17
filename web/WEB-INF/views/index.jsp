@@ -11,6 +11,13 @@
     <title>Customer Manager</title>
   </head>
   <body>
-    <h1>${message}</h1>
+  <div align="center">
+    <h1>Customer Manager</h1>
+    <form method="get" action="search">
+      <input type="text" name="keyword"/>
+      <input type="submit" value="Search">
+    </form>
+
+  </div>
   </body>
 </html>
