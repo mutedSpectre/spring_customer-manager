@@ -13,4 +13,8 @@ public class CustomerService {
     public List<Customer> listAll() {
         return (List<Customer>) repo.findAll();
     }
+
+    public void save (Customer customer) {
+        repo.save(customer);
+    }
 }
